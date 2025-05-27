@@ -163,28 +163,7 @@ main {
   color: #00c7d6;
 }
 
-/* Vidéos dans service */
-.service-videos {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
 
-.service-videos video {
-  border-radius: 12px;
-  box-shadow: 0 0 15px #00ffffcc;
-  max-width: 320px;
-  max-height: 180px;
-  width: 100%;
-  background: black;
-  transition: transform 0.3s ease;
-}
-
-.service-videos video:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 25px #00ffff;
-}
 
 /* Section contact */
 .contact {
@@ -310,6 +289,7 @@ footer {
   box-shadow: 0 0 10px rgba(0, 255, 255, 0.5); /* optionnel pour un effet lumineux */
 }
 .service-icon {
-      display: flex;
-      align-items: center;
-      gap: 8px; }
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
